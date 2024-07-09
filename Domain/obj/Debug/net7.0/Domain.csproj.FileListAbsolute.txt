@@ -1,0 +1,12 @@
+C:\ultragroup\Domain\bin\Debug\net7.0\Domain.deps.json
+C:\ultragroup\Domain\bin\Debug\net7.0\Domain.dll
+C:\ultragroup\Domain\bin\Debug\net7.0\Domain.pdb
+C:\ultragroup\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+C:\ultragroup\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\ultragroup\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+C:\ultragroup\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+C:\ultragroup\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+C:\ultragroup\Domain\obj\Debug\net7.0\Domain.dll
+C:\ultragroup\Domain\obj\Debug\net7.0\refint\Domain.dll
+C:\ultragroup\Domain\obj\Debug\net7.0\Domain.pdb
+C:\ultragroup\Domain\obj\Debug\net7.0\ref\Domain.dll
