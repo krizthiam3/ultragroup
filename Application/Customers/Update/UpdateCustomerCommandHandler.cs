@@ -23,8 +23,7 @@ internal sealed class UpdateCustomerCommandHandler : IRequestHandler<UpdateCusto
         }
 
 
-        if (Address.Create(command.Country, command.City,
-                    command.State, command.ZipCode) is not Address address)
+        if (Address.Create(command.Country, command.City, command.State, command.ZipCode) is not Address address)
         {
             return Error.Validation("Customer.Address", "Address is not valid.");
         }
