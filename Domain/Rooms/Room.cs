@@ -35,7 +35,7 @@ public sealed class Room : AggregateRoot
     public double Taxes { get; private set; }
     public bool Active { get; private set; }
 
-    public static Room UpdateHotel(Guid id, string code, string name, string type, string hotel, int occupancy, int floor, double price, double taxes, bool active)
+    public static Room UpdateRoom(Guid id, string code, string name, string type, string hotel, int occupancy, int floor, double price, double taxes, bool active)
     {
         return new Room(new RoomId(id), code, name, type, hotel, occupancy, floor, price, taxes, active);
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r7jgJVkY5+SKmZ+j3iPiU9xb8BYEtweFA4/h6//dwCSpF+MhfL43MMcXKYc/gnLRKybcLPNTgrJ8hur7rz4IoQ==",
+  "dgSpecHash": "Ozjo0x8jABw=",
   "success": true,
-  "projectFilePath": "C:\\ultragroup\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CristianValenciaPC\\.nuget\\packages\\erroror\\2.0.1\\erroror.2.0.1.nupkg.sha512",
     "C:\\Users\\CristianValenciaPC\\.nuget\\packages\\mediatr\\12.3.0\\mediatr.12.3.0.nupkg.sha512",

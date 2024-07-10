@@ -22,7 +22,7 @@ internal sealed class UpdateRoomCommandHandler : IRequestHandler<UpdateRoomComma
             return Error.NotFound("Room.NotFound", "The room with the provide Id was not found.");
         }
 
-        Room room = Room.UpdateHotel(command.Id, command.Code,
+        Room room = Room.UpdateRoom(command.Id, command.Code,
             command.Name,
             command.TypeId,
             command.HotelId,

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iZmECSVba7T7tmDf/pPc/x/7H7VmnZ/owCP2jogrSycmUfh4/HsZMvKVm7G6AQl1RUDWWb/kr+yHJ7LD0dFZLg==",
+  "dgSpecHash": "L7ugWYqtko8=",
   "success": true,
-  "projectFilePath": "C:\\ultragroup\\Web.API\\Web.API.csproj",
+  "projectFilePath": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Web.API\\Web.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CristianValenciaPC\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\CristianValenciaPC\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

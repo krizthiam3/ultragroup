@@ -6,6 +6,7 @@ using Domain.Primitives;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Domain.Bookings;
+using Domain.RoomsTypes;
 
 namespace Infrastructure.Persistence;
 
@@ -21,6 +22,7 @@ public class ApplicationDbContext : DbContext, IApplicationDbContext, IUnitOfWor
     public DbSet<Customer> Customers { get; set; }
     public DbSet<Hotel> Hotels { get; set; }
     public DbSet<Room> Rooms { get; set; }
+    public DbSet<RoomTypes> RoomTypes { get; set; }
     public DbSet<Booking> Booking { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

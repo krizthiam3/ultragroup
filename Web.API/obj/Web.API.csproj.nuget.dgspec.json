@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ultragroup\\Web.API\\Web.API.csproj": {}
+    "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Web.API\\Web.API.csproj": {}
   },
   "projects": {
-    "C:\\ultragroup\\Application\\Application.csproj": {
+    "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ultragroup\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\ultragroup\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\CristianValenciaPC\\.nuget\\packages\\",
-        "outputPath": "C:\\ultragroup\\Application\\obj\\",
+        "outputPath": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,18 +22,19 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\ultragroup\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\ultragroup\\Domain\\Domain.csproj"
+              "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Domain\\Domain.csproj"
               }
             }
           }
@@ -42,11 +43,16 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "ErrorOr": {
               "target": "Package",
@@ -85,18 +91,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\ultragroup\\Domain\\Domain.csproj": {
+    "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ultragroup\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\ultragroup\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\CristianValenciaPC\\.nuget\\packages\\",
-        "outputPath": "C:\\ultragroup\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -107,15 +113,16 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -123,11 +130,16 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "ErrorOr": {
               "target": "Package",
@@ -154,18 +166,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\ultragroup\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ultragroup\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\ultragroup\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\CristianValenciaPC\\.nuget\\packages\\",
-        "outputPath": "C:\\ultragroup\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -176,21 +188,22 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\ultragroup\\Application\\Application.csproj": {
-                "projectPath": "C:\\ultragroup\\Application\\Application.csproj"
+              "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Application.csproj"
               },
-              "C:\\ultragroup\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\ultragroup\\Domain\\Domain.csproj"
+              "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Domain\\Domain.csproj"
               }
             }
           }
@@ -199,11 +212,16 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -234,18 +252,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\ultragroup\\Web.API\\Web.API.csproj": {
+    "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Web.API\\Web.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ultragroup\\Web.API\\Web.API.csproj",
+        "projectUniqueName": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Web.API\\Web.API.csproj",
         "projectName": "Web.API",
-        "projectPath": "C:\\ultragroup\\Web.API\\Web.API.csproj",
+        "projectPath": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Web.API\\Web.API.csproj",
         "packagesPath": "C:\\Users\\CristianValenciaPC\\.nuget\\packages\\",
-        "outputPath": "C:\\ultragroup\\Web.API\\obj\\",
+        "outputPath": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Web.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -256,22 +274,22 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\ultragroup\\Application\\Application.csproj": {
-                "projectPath": "C:\\ultragroup\\Application\\Application.csproj"
+              "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Application.csproj"
               },
-              "C:\\ultragroup\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\ultragroup\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -280,11 +298,16 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
@@ -314,7 +337,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

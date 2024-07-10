@@ -15,7 +15,7 @@ public class RoomRepository : IRoomRepository
     public void Add(Room room) => _context.Rooms.Add(room);
     public void Delete(Room room) => _context.Rooms.Remove(room);
     public void Update(Room room) => _context.Rooms.Update(room);
-    public async Task<bool> ExistsAsync(RoomId id) => await _context.Rooms.AnyAsync(hotel => hotel.Id == id);
+    public async Task<bool> ExistsAsync(RoomId id) => await _context.Rooms.AnyAsync(r => r.Id == id);
     public async Task<Room?> GetByIdAsync(RoomId id) => await _context.Rooms.SingleOrDefaultAsync(c => c.Id == id);
     public async Task<List<Room>> GetAll() => await _context.Rooms.ToListAsync();
 }
