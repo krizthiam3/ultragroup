@@ -46,9 +46,6 @@ CREATE TABLE Hotels (
 );
 
 
-
-
-
 -- HABITACIONES
 
 
@@ -56,8 +53,8 @@ CREATE TABLE Rooms (
 		[Id] uniqueidentifier ,
 	    [Code] varchar(20),
 	    [Name] varchar(100),
-		[TypeId] varchar(20),
-		[HotelId] varchar(20),
+		[TypeId] uniqueidentifier,
+		[HotelId] uniqueidentifier,
 		[Occupancy] int,
 		[UbicationFloor] int,
 		[Price] decimal(10, 2),
@@ -78,8 +75,8 @@ CREATE TABLE Booking (
 	    [Code] varchar(20),
 	    [CheckInDate] date,
 	    [CheckOutDate] date,
-		[RoomId] varchar(20),
-		[CustomerId] varchar(20),
+		[RoomId] uniqueidentifier,
+		[CustomerId] uniqueidentifier,
 		[EmergencyContactFullName] varchar(100),
 		[EmergencyContactPhoneNumber] varchar(20),
 	    [Active] Bit

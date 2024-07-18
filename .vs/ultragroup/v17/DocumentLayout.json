@@ -1,0 +1,529 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C3E821A7-5D1A-409E-B239-CAFDE41B0282}|Web.API\\Web.API.csproj|c:\\users\\cristianvalenciapc\\source\\repos\\ultragroup\\web.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3E821A7-5D1A-409E-B239-CAFDE41B0282}|Web.API\\Web.API.csproj|solutionrelative:web.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3E821A7-5D1A-409E-B239-CAFDE41B0282}|Web.API\\Web.API.csproj|c:\\users\\cristianvalenciapc\\source\\repos\\ultragroup\\web.api\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3E821A7-5D1A-409E-B239-CAFDE41B0282}|Web.API\\Web.API.csproj|solutionrelative:web.api\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{514D693F-B0E3-4379-BB2B-19A4F8FCF2BB}|Application\\Application.csproj|c:\\users\\cristianvalenciapc\\source\\repos\\ultragroup\\application\\rooms\\getfilter\\getfilterroomsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{514D693F-B0E3-4379-BB2B-19A4F8FCF2BB}|Application\\Application.csproj|solutionrelative:application\\rooms\\getfilter\\getfilterroomsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D7EF4B3-7ABE-4F2D-A585-D4A302CF4BE8}|Domain\\Domain.csproj|c:\\users\\cristianvalenciapc\\source\\repos\\ultragroup\\domain\\rooms\\roomfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D7EF4B3-7ABE-4F2D-A585-D4A302CF4BE8}|Domain\\Domain.csproj|solutionrelative:domain\\rooms\\roomfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{514D693F-B0E3-4379-BB2B-19A4F8FCF2BB}|Application\\Application.csproj|c:\\users\\cristianvalenciapc\\source\\repos\\ultragroup\\application\\bookings\\create\\createbookingcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{514D693F-B0E3-4379-BB2B-19A4F8FCF2BB}|Application\\Application.csproj|solutionrelative:application\\bookings\\create\\createbookingcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D161EE9-A808-4F82-9C61-4BE00D6692FA}|Infrastructure\\Infrastructure.csproj|c:\\users\\cristianvalenciapc\\source\\repos\\ultragroup\\infrastructure\\persistence\\repositories\\roomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D161EE9-A808-4F82-9C61-4BE00D6692FA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistence\\repositories\\roomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{514D693F-B0E3-4379-BB2B-19A4F8FCF2BB}|Application\\Application.csproj|c:\\users\\cristianvalenciapc\\source\\repos\\ultragroup\\application\\hotels\\create\\createhotelcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{514D693F-B0E3-4379-BB2B-19A4F8FCF2BB}|Application\\Application.csproj|solutionrelative:application\\hotels\\create\\createhotelcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{514D693F-B0E3-4379-BB2B-19A4F8FCF2BB}|Application\\Application.csproj|c:\\users\\cristianvalenciapc\\source\\repos\\ultragroup\\application\\hotels\\common\\hotelresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{514D693F-B0E3-4379-BB2B-19A4F8FCF2BB}|Application\\Application.csproj|solutionrelative:application\\hotels\\common\\hotelresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{514D693F-B0E3-4379-BB2B-19A4F8FCF2BB}|Application\\Application.csproj|c:\\users\\cristianvalenciapc\\source\\repos\\ultragroup\\application\\rooms\\create\\createroomcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{514D693F-B0E3-4379-BB2B-19A4F8FCF2BB}|Application\\Application.csproj|solutionrelative:application\\rooms\\create\\createroomcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{514D693F-B0E3-4379-BB2B-19A4F8FCF2BB}|Application\\Application.csproj|c:\\users\\cristianvalenciapc\\source\\repos\\ultragroup\\application\\bookings\\common\\bookingresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{514D693F-B0E3-4379-BB2B-19A4F8FCF2BB}|Application\\Application.csproj|solutionrelative:application\\bookings\\common\\bookingresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D161EE9-A808-4F82-9C61-4BE00D6692FA}|Infrastructure\\Infrastructure.csproj|c:\\users\\cristianvalenciapc\\source\\repos\\ultragroup\\infrastructure\\persistence\\configuration\\roomconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D161EE9-A808-4F82-9C61-4BE00D6692FA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistence\\configuration\\roomconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D161EE9-A808-4F82-9C61-4BE00D6692FA}|Infrastructure\\Infrastructure.csproj|c:\\users\\cristianvalenciapc\\source\\repos\\ultragroup\\infrastructure\\persistence\\configuration\\hotelconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D161EE9-A808-4F82-9C61-4BE00D6692FA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistence\\configuration\\hotelconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D161EE9-A808-4F82-9C61-4BE00D6692FA}|Infrastructure\\Infrastructure.csproj|c:\\users\\cristianvalenciapc\\source\\repos\\ultragroup\\infrastructure\\persistence\\configuration\\bookingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D161EE9-A808-4F82-9C61-4BE00D6692FA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistence\\configuration\\bookingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3E821A7-5D1A-409E-B239-CAFDE41B0282}|Web.API\\Web.API.csproj|c:\\users\\cristianvalenciapc\\source\\repos\\ultragroup\\web.api\\controllers\\hotelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3E821A7-5D1A-409E-B239-CAFDE41B0282}|Web.API\\Web.API.csproj|solutionrelative:web.api\\controllers\\hotelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{514D693F-B0E3-4379-BB2B-19A4F8FCF2BB}|Application\\Application.csproj|c:\\users\\cristianvalenciapc\\source\\repos\\ultragroup\\application\\bookings\\update\\updatebookingcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{514D693F-B0E3-4379-BB2B-19A4F8FCF2BB}|Application\\Application.csproj|solutionrelative:application\\bookings\\update\\updatebookingcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D7EF4B3-7ABE-4F2D-A585-D4A302CF4BE8}|Domain\\Domain.csproj|c:\\users\\cristianvalenciapc\\source\\repos\\ultragroup\\domain\\bookings\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D7EF4B3-7ABE-4F2D-A585-D4A302CF4BE8}|Domain\\Domain.csproj|solutionrelative:domain\\bookings\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{514D693F-B0E3-4379-BB2B-19A4F8FCF2BB}|Application\\Application.csproj|c:\\users\\cristianvalenciapc\\source\\repos\\ultragroup\\application\\bookings\\update\\updatebookingcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{514D693F-B0E3-4379-BB2B-19A4F8FCF2BB}|Application\\Application.csproj|solutionrelative:application\\bookings\\update\\updatebookingcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{514D693F-B0E3-4379-BB2B-19A4F8FCF2BB}|Application\\Application.csproj|c:\\users\\cristianvalenciapc\\source\\repos\\ultragroup\\application\\bookings\\getall\\getallbookingsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{514D693F-B0E3-4379-BB2B-19A4F8FCF2BB}|Application\\Application.csproj|solutionrelative:application\\bookings\\getall\\getallbookingsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{514D693F-B0E3-4379-BB2B-19A4F8FCF2BB}|Application\\Application.csproj|c:\\users\\cristianvalenciapc\\source\\repos\\ultragroup\\application\\bookings\\update\\updatebookingcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{514D693F-B0E3-4379-BB2B-19A4F8FCF2BB}|Application\\Application.csproj|solutionrelative:application\\bookings\\update\\updatebookingcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{514D693F-B0E3-4379-BB2B-19A4F8FCF2BB}|Application\\Application.csproj|c:\\users\\cristianvalenciapc\\source\\repos\\ultragroup\\application\\rooms\\update\\updateroomcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{514D693F-B0E3-4379-BB2B-19A4F8FCF2BB}|Application\\Application.csproj|solutionrelative:application\\rooms\\update\\updateroomcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{514D693F-B0E3-4379-BB2B-19A4F8FCF2BB}|Application\\Application.csproj|c:\\users\\cristianvalenciapc\\source\\repos\\ultragroup\\application\\rooms\\update\\updateroomcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{514D693F-B0E3-4379-BB2B-19A4F8FCF2BB}|Application\\Application.csproj|solutionrelative:application\\rooms\\update\\updateroomcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D161EE9-A808-4F82-9C61-4BE00D6692FA}|Infrastructure\\Infrastructure.csproj|c:\\users\\cristianvalenciapc\\source\\repos\\ultragroup\\infrastructure\\persistence\\repositories\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D161EE9-A808-4F82-9C61-4BE00D6692FA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistence\\repositories\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{514D693F-B0E3-4379-BB2B-19A4F8FCF2BB}|Application\\Application.csproj|c:\\users\\cristianvalenciapc\\source\\repos\\ultragroup\\application\\rooms\\create\\createroomcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{514D693F-B0E3-4379-BB2B-19A4F8FCF2BB}|Application\\Application.csproj|solutionrelative:application\\rooms\\create\\createroomcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{514D693F-B0E3-4379-BB2B-19A4F8FCF2BB}|Application\\Application.csproj|c:\\users\\cristianvalenciapc\\source\\repos\\ultragroup\\application\\rooms\\update\\updateroomcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{514D693F-B0E3-4379-BB2B-19A4F8FCF2BB}|Application\\Application.csproj|solutionrelative:application\\rooms\\update\\updateroomcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CristianValenciaPC\\AppData\\Local\\SourceServer\\026d32105b3f52d780b7bcc2dabf242bfda14659fb93b7d8551dcca8fc131e7d\\Web.API\\Controllers\\RoomsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{514D693F-B0E3-4379-BB2B-19A4F8FCF2BB}|Application\\Application.csproj|c:\\users\\cristianvalenciapc\\source\\repos\\ultragroup\\application\\rooms\\delete\\deleteroomcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{514D693F-B0E3-4379-BB2B-19A4F8FCF2BB}|Application\\Application.csproj|solutionrelative:application\\rooms\\delete\\deleteroomcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{514D693F-B0E3-4379-BB2B-19A4F8FCF2BB}|Application\\Application.csproj|c:\\users\\cristianvalenciapc\\source\\repos\\ultragroup\\application\\rooms\\delete\\deleteroomcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{514D693F-B0E3-4379-BB2B-19A4F8FCF2BB}|Application\\Application.csproj|solutionrelative:application\\rooms\\delete\\deleteroomcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{514D693F-B0E3-4379-BB2B-19A4F8FCF2BB}|Application\\Application.csproj|c:\\users\\cristianvalenciapc\\source\\repos\\ultragroup\\application\\hotels\\create\\createhotelcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{514D693F-B0E3-4379-BB2B-19A4F8FCF2BB}|Application\\Application.csproj|solutionrelative:application\\hotels\\create\\createhotelcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{514D693F-B0E3-4379-BB2B-19A4F8FCF2BB}|Application\\Application.csproj|c:\\users\\cristianvalenciapc\\source\\repos\\ultragroup\\application\\hotels\\create\\createhotelcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{514D693F-B0E3-4379-BB2B-19A4F8FCF2BB}|Application\\Application.csproj|solutionrelative:application\\hotels\\create\\createhotelcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{514D693F-B0E3-4379-BB2B-19A4F8FCF2BB}|Application\\Application.csproj|c:\\users\\cristianvalenciapc\\source\\repos\\ultragroup\\application\\hotels\\update\\updatehotelcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{514D693F-B0E3-4379-BB2B-19A4F8FCF2BB}|Application\\Application.csproj|solutionrelative:application\\hotels\\update\\updatehotelcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RoomFilter.cs",
+              "DocumentMoniker": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Domain\\Rooms\\RoomFilter.cs",
+              "RelativeDocumentMoniker": "Domain\\Rooms\\RoomFilter.cs",
+              "ToolTip": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Domain\\Rooms\\RoomFilter.cs",
+              "RelativeToolTip": "Domain\\Rooms\\RoomFilter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T03:32:43.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RoomsController.cs",
+              "DocumentMoniker": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Web.API\\Controllers\\RoomsController.cs",
+              "RelativeDocumentMoniker": "Web.API\\Controllers\\RoomsController.cs",
+              "ToolTip": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Web.API\\Controllers\\RoomsController.cs",
+              "RelativeToolTip": "Web.API\\Controllers\\RoomsController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAqwCMAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T02:41:02.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateHotelCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Hotels\\Create\\CreateHotelCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Hotels\\Create\\CreateHotelCommandHandler.cs",
+              "ToolTip": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Hotels\\Create\\CreateHotelCommandHandler.cs",
+              "RelativeToolTip": "Application\\Hotels\\Create\\CreateHotelCommandHandler.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAoAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T03:18:25.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RoomRepository.cs",
+              "DocumentMoniker": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Infrastructure\\Persistence\\Repositories\\RoomRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Repositories\\RoomRepository.cs",
+              "ToolTip": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Infrastructure\\Persistence\\Repositories\\RoomRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Repositories\\RoomRepository.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T01:15:33.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateBookingCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Bookings\\Create\\CreateBookingCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Bookings\\Create\\CreateBookingCommandHandler.cs",
+              "ToolTip": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Bookings\\Create\\CreateBookingCommandHandler.cs",
+              "RelativeToolTip": "Application\\Bookings\\Create\\CreateBookingCommandHandler.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAADwvyYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T02:30:11.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetFilterRoomsQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Rooms\\GetFilter\\GetFilterRoomsQueryHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Rooms\\GetFilter\\GetFilterRoomsQueryHandler.cs",
+              "ToolTip": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Rooms\\GetFilter\\GetFilterRoomsQueryHandler.cs",
+              "RelativeToolTip": "Application\\Rooms\\GetFilter\\GetFilterRoomsQueryHandler.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAiwBUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T02:57:59.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BookingResponse.cs",
+              "DocumentMoniker": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Bookings\\Common\\BookingResponse.cs",
+              "RelativeDocumentMoniker": "Application\\Bookings\\Common\\BookingResponse.cs",
+              "ToolTip": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Bookings\\Common\\BookingResponse.cs",
+              "RelativeToolTip": "Application\\Bookings\\Common\\BookingResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T03:02:37.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Web.API\\Program.cs",
+              "RelativeDocumentMoniker": "Web.API\\Program.cs",
+              "ToolTip": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Web.API\\Program.cs",
+              "RelativeToolTip": "Web.API\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T03:04:54.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateRoomCommand.cs",
+              "DocumentMoniker": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Rooms\\Create\\CreateRoomCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Rooms\\Create\\CreateRoomCommand.cs",
+              "ToolTip": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Rooms\\Create\\CreateRoomCommand.cs",
+              "RelativeToolTip": "Application\\Rooms\\Create\\CreateRoomCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAWwAkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T03:06:58.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HotelResponse.cs",
+              "DocumentMoniker": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Hotels\\Common\\HotelResponse.cs",
+              "RelativeDocumentMoniker": "Application\\Hotels\\Common\\HotelResponse.cs",
+              "ToolTip": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Hotels\\Common\\HotelResponse.cs",
+              "RelativeToolTip": "Application\\Hotels\\Common\\HotelResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T03:03:42.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RoomConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Infrastructure\\Persistence\\Configuration\\RoomConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Configuration\\RoomConfiguration.cs",
+              "ToolTip": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Infrastructure\\Persistence\\Configuration\\RoomConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Configuration\\RoomConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T02:51:28.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HotelConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Infrastructure\\Persistence\\Configuration\\HotelConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Configuration\\HotelConfiguration.cs",
+              "ToolTip": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Infrastructure\\Persistence\\Configuration\\HotelConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Configuration\\HotelConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T02:51:19.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BookingConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Infrastructure\\Persistence\\Configuration\\BookingConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Configuration\\BookingConfiguration.cs",
+              "ToolTip": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Infrastructure\\Persistence\\Configuration\\BookingConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Configuration\\BookingConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T02:51:08.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HotelsController.cs",
+              "DocumentMoniker": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Web.API\\Controllers\\HotelsController.cs",
+              "RelativeDocumentMoniker": "Web.API\\Controllers\\HotelsController.cs",
+              "ToolTip": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Web.API\\Controllers\\HotelsController.cs",
+              "RelativeToolTip": "Web.API\\Controllers\\HotelsController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAIwCkAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T02:45:35.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UpdateBookingCommand.cs",
+              "DocumentMoniker": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Bookings\\Update\\UpdateBookingCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Bookings\\Update\\UpdateBookingCommand.cs",
+              "ToolTip": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Bookings\\Update\\UpdateBookingCommand.cs",
+              "RelativeToolTip": "Application\\Bookings\\Update\\UpdateBookingCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T02:40:52.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GetAllBookingsQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Bookings\\GetAll\\GetAllBookingsQueryHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Bookings\\GetAll\\GetAllBookingsQueryHandler.cs",
+              "ToolTip": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Bookings\\GetAll\\GetAllBookingsQueryHandler.cs",
+              "RelativeToolTip": "Application\\Bookings\\GetAll\\GetAllBookingsQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T02:38:39.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UpdateBookingCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Bookings\\Update\\UpdateBookingCommandValidator.cs",
+              "RelativeDocumentMoniker": "Application\\Bookings\\Update\\UpdateBookingCommandValidator.cs",
+              "ToolTip": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Bookings\\Update\\UpdateBookingCommandValidator.cs",
+              "RelativeToolTip": "Application\\Bookings\\Update\\UpdateBookingCommandValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T02:35:22.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Domain\\Bookings\\Booking.cs",
+              "RelativeDocumentMoniker": "Domain\\Bookings\\Booking.cs",
+              "ToolTip": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Domain\\Bookings\\Booking.cs",
+              "RelativeToolTip": "Domain\\Bookings\\Booking.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T02:34:28.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UpdateRoomCommand.cs",
+              "DocumentMoniker": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Rooms\\Update\\UpdateRoomCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Rooms\\Update\\UpdateRoomCommand.cs",
+              "ToolTip": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Rooms\\Update\\UpdateRoomCommand.cs",
+              "RelativeToolTip": "Application\\Rooms\\Update\\UpdateRoomCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T02:29:20.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UpdateBookingCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Bookings\\Update\\UpdateBookingCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Bookings\\Update\\UpdateBookingCommandHandler.cs",
+              "ToolTip": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Bookings\\Update\\UpdateBookingCommandHandler.cs",
+              "RelativeToolTip": "Application\\Bookings\\Update\\UpdateBookingCommandHandler.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAtwDAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T02:28:30.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UpdateRoomCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Rooms\\Update\\UpdateRoomCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Rooms\\Update\\UpdateRoomCommandHandler.cs",
+              "ToolTip": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Rooms\\Update\\UpdateRoomCommandHandler.cs",
+              "RelativeToolTip": "Application\\Rooms\\Update\\UpdateRoomCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T02:08:23.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UpdateRoomCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Rooms\\Update\\UpdateRoomCommandValidator.cs",
+              "RelativeDocumentMoniker": "Application\\Rooms\\Update\\UpdateRoomCommandValidator.cs",
+              "ToolTip": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Rooms\\Update\\UpdateRoomCommandValidator.cs",
+              "RelativeToolTip": "Application\\Rooms\\Update\\UpdateRoomCommandValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T03:08:16.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BookingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Infrastructure\\Persistence\\Repositories\\BookingRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Repositories\\BookingRepository.cs",
+              "ToolTip": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Infrastructure\\Persistence\\Repositories\\BookingRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Repositories\\BookingRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T02:14:31.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CreateRoomCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Rooms\\Create\\CreateRoomCommandValidator.cs",
+              "RelativeDocumentMoniker": "Application\\Rooms\\Create\\CreateRoomCommandValidator.cs",
+              "ToolTip": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Rooms\\Create\\CreateRoomCommandValidator.cs",
+              "RelativeToolTip": "Application\\Rooms\\Create\\CreateRoomCommandValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T03:07:57.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DeleteRoomCommand.cs",
+              "DocumentMoniker": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Rooms\\Delete\\DeleteRoomCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Rooms\\Delete\\DeleteRoomCommand.cs",
+              "ToolTip": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Rooms\\Delete\\DeleteRoomCommand.cs",
+              "RelativeToolTip": "Application\\Rooms\\Delete\\DeleteRoomCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T01:02:44.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RoomsController.cs",
+              "DocumentMoniker": "C:\\Users\\CristianValenciaPC\\AppData\\Local\\SourceServer\\026d32105b3f52d780b7bcc2dabf242bfda14659fb93b7d8551dcca8fc131e7d\\Web.API\\Controllers\\RoomsController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\026d32105b3f52d780b7bcc2dabf242bfda14659fb93b7d8551dcca8fc131e7d\\Web.API\\Controllers\\RoomsController.cs",
+              "ToolTip": "C:\\Users\\CristianValenciaPC\\AppData\\Local\\SourceServer\\026d32105b3f52d780b7bcc2dabf242bfda14659fb93b7d8551dcca8fc131e7d\\Web.API\\Controllers\\RoomsController.cs [Solo lectura]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\SourceServer\\026d32105b3f52d780b7bcc2dabf242bfda14659fb93b7d8551dcca8fc131e7d\\Web.API\\Controllers\\RoomsController.cs [Solo lectura]",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAQwFEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T01:09:36.541Z",
+              "EditorCaption": " [Solo lectura]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DeleteRoomCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Rooms\\Delete\\DeleteRoomCommandValidator.cs",
+              "RelativeDocumentMoniker": "Application\\Rooms\\Delete\\DeleteRoomCommandValidator.cs",
+              "ToolTip": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Rooms\\Delete\\DeleteRoomCommandValidator.cs",
+              "RelativeToolTip": "Application\\Rooms\\Delete\\DeleteRoomCommandValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T01:02:51.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CreateHotelCommand.cs",
+              "DocumentMoniker": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Hotels\\Create\\CreateHotelCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Hotels\\Create\\CreateHotelCommand.cs",
+              "ToolTip": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Hotels\\Create\\CreateHotelCommand.cs",
+              "RelativeToolTip": "Application\\Hotels\\Create\\CreateHotelCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T03:17:08.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UpdateHotelCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Hotels\\Update\\UpdateHotelCommandValidator.cs",
+              "RelativeDocumentMoniker": "Application\\Hotels\\Update\\UpdateHotelCommandValidator.cs",
+              "ToolTip": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Hotels\\Update\\UpdateHotelCommandValidator.cs",
+              "RelativeToolTip": "Application\\Hotels\\Update\\UpdateHotelCommandValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T03:08:29.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CreateHotelCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Hotels\\Create\\CreateHotelCommandValidator.cs",
+              "RelativeDocumentMoniker": "Application\\Hotels\\Create\\CreateHotelCommandValidator.cs",
+              "ToolTip": "C:\\Users\\CristianValenciaPC\\source\\repos\\ultragroup\\Application\\Hotels\\Create\\CreateHotelCommandValidator.cs",
+              "RelativeToolTip": "Application\\Hotels\\Create\\CreateHotelCommandValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T03:08:39.763Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

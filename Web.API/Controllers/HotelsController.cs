@@ -3,6 +3,7 @@ using Application.Hotels.Update;
 using Application.Hotels.GetById;
 using Application.Hotels.Delete;
 using Application.Hotels.GetAll;
+using Application.Rooms.Update;
 
 namespace Web.API.Controllers;
 
@@ -59,5 +60,34 @@ public class Hotels : ApiController
     {
         var deleteResult = await _mediator.Send(new DeleteHotelCommand(id));
         return deleteResult.Match(hotelId => NoContent(), errors => Problem(errors));
+    }
+
+
+    [HttpPatch("{id}/status")]
+    public async Task<IActionResult> StatusChange(Guid id, [FromBody] UpdateHotelCommand command)
+    {
+        try
+        {
+            List<Error> errors = new();
+
+            if (command.Id != id)
+            {
+                errors.Add(Error.Validation("Hotel.ChangeStatus", "The request Id does not match with the url Id."));
+                return Problem(errors);
+            }
+
+            var updateResult = await _mediator.Send(command);
+
+            return updateResult.Match(
+                   roomId => NoContent(),
+                   errors => Problem(errors)
+            );
+
+        }
+        catch (Exception ex)
+        {
+            return Problem("An unexpected error occurred.");
+        }
+
     }
 }

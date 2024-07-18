@@ -8,16 +8,16 @@ namespace Domain.Bookings;
 
 public sealed class Booking : AggregateRoot
 {
-    public Booking(BookingId id, string code, DateTime checkInDate, DateTime checkOutDate, string roomId, string emergencyNumber, string emergencyName, string customerId, bool active)
+    public Booking(BookingId id, string code, DateTime checkInDate, DateTime checkOutDate, Guid roomId, string emergencyNumber, string emergencyName, Guid customerId, bool active)
     {
         Id = id;
         Code = code;
         CheckInDate = checkInDate;
         CheckOutDate = checkOutDate;
         RoomId = roomId;
-        CustomerId = customerId;
         EmergencyContactFullName = emergencyName;
         EmergencyContactPhoneNumber = emergencyNumber;
+        CustomerId = customerId;
         Active = active;
     }
 
@@ -27,13 +27,13 @@ public sealed class Booking : AggregateRoot
     public string Code { get; private set; } 
     public DateTime CheckInDate { get; private set; } 
     public DateTime CheckOutDate { get; private set; } 
-    public string RoomId { get; private set; } 
+    public Guid RoomId { get; private set; } 
     public string EmergencyContactFullName { get; private set; } 
     public string EmergencyContactPhoneNumber { get; private set; } 
-    public string CustomerId { get; set; } 
+    public Guid CustomerId { get; set; } 
     public bool Active { get; private set; }
 
-    public static Booking UpdateBooking(Guid id, string code, DateTime checkInDate, DateTime checkOutDate, string roomId, string emergencyNumber, string emergencyName, string customerId, bool active)
+    public static Booking UpdateBooking(Guid id, string code, DateTime checkInDate, DateTime checkOutDate, Guid roomId, string emergencyNumber, string emergencyName, Guid customerId, bool active)
     {
         return new Booking(new BookingId(id), code, checkInDate, checkOutDate, roomId, emergencyNumber, emergencyName, customerId, active);
     }

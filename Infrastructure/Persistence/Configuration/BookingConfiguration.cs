@@ -15,10 +15,10 @@ public class BookingConfiguration : IEntityTypeConfiguration<Booking>
         builder.Property(c => c.Code).HasMaxLength(20);
         builder.Property(c => c.CheckInDate).IsRequired();
         builder.Property(c => c.CheckOutDate).IsRequired();
-        builder.Property(c => c.RoomId).HasMaxLength(20);
+        builder.Property(c => c.RoomId).HasMaxLength(50);
         builder.Property(c => c.EmergencyContactPhoneNumber).HasMaxLength(200);
         builder.Property(c => c.EmergencyContactFullName).HasMaxLength(100);
-        builder.Property(c => c.CustomerId).HasMaxLength(20);
+        builder.Property(c => c.CustomerId).HasMaxLength(50);
         builder.Property(c => c.Active);
     }
 }

@@ -1,14 +1,16 @@
+using Domain.Hotels;
+
 namespace Rooms.Common;
 
 public record RoomResponse(
 Guid Id,
 string Code,
 string Name,
-string TypeId,
-string HotelId,
+Guid TypeId,
+Guid HotelId,
 int Occupancy,
 int UbicationFloor,
-double Price,
-double Taxes,
+decimal Price,
+decimal Taxes,
 bool Active);
 

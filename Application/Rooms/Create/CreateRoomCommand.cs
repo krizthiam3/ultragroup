@@ -6,10 +6,10 @@ namespace Application.Rooms.Create;
 public record CreateRoomCommand(
     string Code,
     string Name,
-    string TypeId,
-    string HotelId,
+    Guid TypeId,
+    Guid HotelId,
     int Occupancy,
     int UbicationFloor,
-    double Price,
-    double Taxes
+    decimal Price,
+    decimal Taxes
     ) : IRequest<ErrorOr<Guid>>;

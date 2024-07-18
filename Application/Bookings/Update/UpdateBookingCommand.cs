@@ -7,9 +7,9 @@ public record UpdateBookingCommand(
     string Code,
     DateTime CheckInDate,
     DateTime CheckOutDate,
-    string RoomId,
-    string CustomerId,
-     string EmergencyContactFullName,
+    Guid RoomId,
+    Guid CustomerId,
+    string EmergencyContactFullName,
     string EmergencyContactPhoneNumber,
     bool Active) : IRequest<ErrorOr<Unit>>;
 

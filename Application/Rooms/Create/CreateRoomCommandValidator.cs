@@ -8,9 +8,9 @@ public class CreateRoomCommandValidator : AbstractValidator<CreateRoomCommand>
     {
         RuleFor(r => r.Name).NotEmpty().MaximumLength(100);
 
-        RuleFor(r => r.TypeId).NotEmpty().MaximumLength(2);
+        RuleFor(r => r.TypeId).NotEmpty();
 
-        RuleFor(r => r.HotelId).NotEmpty().MaximumLength(2);
+        RuleFor(r => r.HotelId).NotEmpty();
 
         RuleFor(r => r.Occupancy).NotEmpty();
 

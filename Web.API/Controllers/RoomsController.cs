@@ -4,6 +4,10 @@ using Application.Rooms.GetById;
 using Application.Rooms.Delete;
 using Application.Rooms.GetAll;
 using Domain.Rooms;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Application.Rooms.GetFilter;
 
 namespace Web.API.Controllers;
 
@@ -20,6 +24,17 @@ public class Rooms : ApiController
     public async Task<IActionResult> GetAll()
     {
         var roomsResult = await _mediator.Send(new GetAllRoomsQuery());
+
+        return roomsResult.Match(
+            rooms => Ok(rooms),
+            errors => Problem(errors)
+        );
+    }
+
+    [HttpGet("/filters")]
+    public async Task<IActionResult> GetRooms([FromQuery] RoomFilter filter)
+    {
+        var roomsResult = await _mediator.Send(new GetFilterRoomsQuery(filter.City, filter.Occupancy, true));
 
         return roomsResult.Match(
             rooms => Ok(rooms),
@@ -78,5 +93,33 @@ public class Rooms : ApiController
             roomId => NoContent(),
             errors => Problem(errors)
         );
+    }
+
+    [HttpPatch("{id}/status")]
+    public async Task<IActionResult> StatusChange(Guid id, [FromBody] UpdateRoomCommand command)
+    {
+        try
+        {
+            List<Error> errors = new();
+
+            if (command.Id != id)
+            {
+                errors.Add(Error.Validation("Room.ChangeStatus", "The request Id does not match with the url Id."));
+                return Problem(errors);
+            }
+
+             var updateResult = await _mediator.Send(command);
+
+             return updateResult.Match(
+                    roomId => NoContent(),
+                    errors => Problem(errors)
+             );
+            
+        }
+        catch (Exception ex)
+        {
+            return Problem("An unexpected error occurred.");
+        }
+
     }
 }
