@@ -34,7 +34,7 @@ public class Rooms : ApiController
     [HttpGet("/filters")]
     public async Task<IActionResult> GetRooms([FromQuery] RoomFilter filter)
     {
-        var roomsResult = await _mediator.Send(new GetFilterRoomsQuery(filter.City, filter.Occupancy, true));
+        var roomsResult = await _mediator.Send(new GetFilterRoomsQuery(filter.City, filter.Occupancy, filter.StartDate, filter.EndDate, true));
 
         return roomsResult.Match(
             rooms => Ok(rooms),
